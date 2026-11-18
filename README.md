@@ -75,6 +75,7 @@ The tuned Random Forest model was selected based on its five-fold cross-validati
 * Deploy the web application permanently.
 * Explore a rule-based chatbot.
 
-Disclaimer
+# Disclaimer
+
 This project is an academic prototype for learning and research purposes. It is not a medical diagnostic tool and should not be used to make medical decisions.
 
