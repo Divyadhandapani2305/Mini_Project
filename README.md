@@ -1,6 +1,6 @@
-Explainable AI-Based Clinical Decision Support System for Heart Disease Risk Prediction
+# Explainable AI-Based Clinical Decision Support System for Heart Disease Risk Prediction
 
-About the Project
+# About the Project
 
 This is my M.Sc. Data Science mini project. The main aim of this project is to predict the likelihood of heart disease using Machine Learning.
 
@@ -8,7 +8,7 @@ The system not only predicts the result but also explains why the model gives th
 
 A key finding was that 172 records had Cholesterol recorded as 0, which is a missing value in disguise. These were corrected before modelling.
 
-Objectives
+# Objectives
 
 * To predict heart disease using clinical data.
 * To identify and correct data quality issues.
@@ -18,14 +18,14 @@ Objectives
 * To measure the agreement between SHAP and LIME.
 * To provide predictions and explanations for new patients.
 
-Dataset
+# Dataset
 
 * Total records: 918
 * Clinical features: 11
 * Heart disease cases: 508
 * No heart disease cases: 410
 
-Technologies Used
+# Technologies Used
 
 * Python
 * Machine Learning
@@ -38,14 +38,14 @@ Technologies Used
 * Gradio (web application)
 * Data Visualization
 
-Models Compared
+# Models Compared
 
 * Logistic Regression
 * Random Forest
 * Tuned Random Forest
 * XGBoost
 
-Results
+# Results
 
 * Selected Model: Tuned Random Forest
 * Test Accuracy: 87.50%
@@ -58,7 +58,7 @@ Results
 
 The tuned Random Forest model was selected based on its five-fold cross-validation ROC-AUC score.
 
-Key Features
+# Key Features
 
 * Data preprocessing and cleaning.
 * Hidden missing value detection and correction.
@@ -68,7 +68,7 @@ Key Features
 * LIME-based explanations.
 * New-patient prediction module (Gradio web application).
 
-Future Improvements
+# Future Improvements
 
 * Test the model with additional datasets.
 * Improve the explanation methods.
@@ -76,10 +76,5 @@ Future Improvements
 * Explore a rule-based chatbot.
 
 Disclaimer
-
 This project is an academic prototype for learning and research purposes. It is not a medical diagnostic tool and should not be used to make medical decisions.
 
-Author
-
-**Divya D**
-M.Sc. Data Science, KPR College of Arts Science and Research
